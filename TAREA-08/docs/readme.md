@@ -52,12 +52,18 @@ TAREA-08/
 2. Acceder a:http://empresa-dwcs.localhost
 3. Introducir una ciudad (ej: “Pontevedra”)
 4. Ver el tiempo, altitud y mapa interactivo
+   
+---
+Las APIs utilizadas (Nominatim, Open‑Meteo y Open‑Elevation) funcionan exclusivamente mediante parámetros GET y no aceptan JSON por POST.
+ 
+Este proyecto no utiliza Blade porque no es un proyecto Laravel.
+Se usa PHP como motor de plantillas, separando la lógica en src/ y la presentación en public/.
 
 ---
 
 ## Autor
 
-Chaima Nichami Oufkir  
+Chaima 
 Ciclo: Desarrollo de Aplicaciones Web  
 Módulo: DWES – Aplicaciones Web Híbridas  
 
